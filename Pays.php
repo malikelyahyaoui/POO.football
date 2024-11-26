@@ -1,8 +1,9 @@
 <?php
 
+
 class Pays {
     private string $nom;
-    private $equipes;
+    private array $equipes;
 
     public function __construct(string $nom) {
         $this->nom = $nom;
