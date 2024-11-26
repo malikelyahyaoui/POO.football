@@ -2,10 +2,10 @@
 
 class Equipe {
     private string $nom;
-    private string $pays;
-    private string $joueurs;
+    private Pays $pays;
+    private array $joueurs;
 
-    public function __construct(string $nom, string $pays) {
+    public function __construct(string $nom, Pays $pays) {
         $this->nom = $nom;
         $this->pays = $pays;
         $this->joueurs = [];
