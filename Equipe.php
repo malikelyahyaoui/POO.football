@@ -1,11 +1,11 @@
 <?php
 
 class Equipe {
-    private $nom;
-    private $pays;
-    private $joueurs;
+    private string $nom;
+    private string $pays;
+    private string $joueurs;
 
-    public function __construct($nom, $pays) {
+    public function __construct(string $nom, string $pays) {
         $this->nom = $nom;
         $this->pays = $pays;
         $this->joueurs = [];
