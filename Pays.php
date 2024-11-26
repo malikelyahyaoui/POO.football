@@ -1,10 +1,10 @@
 <?php
 
 class Pays {
-    private $nom;
+    private string $nom;
     private $equipes;
 
-    public function __construct($nom) {
+    public function __construct(string $nom) {
         $this->nom = $nom;
         $this->equipes = [];
     }
